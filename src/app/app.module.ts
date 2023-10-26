@@ -1,20 +1,36 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 
 import { AppComponent } from './app.component';
+import { TopContainerComponent } from './top-container/top-container.component';
+import { DemoContainerComponent } from './demo-container/demo-container.component';
+import { TutorialContainerComponent } from './tutorial-container/tutorial-container.component';
+import { TeamContainerComponent } from './team-container/team-container.component';
+import { DemoItemComponent } from './demo-container/demo-item/demo-item.component';
+import { TeamMemberBoxComponent } from './team-container/team-member-box/team-member-box.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopContainerComponent,
+    DemoContainerComponent,
+    TutorialContainerComponent,
+    TeamContainerComponent,
+    DemoItemComponent,
+    TeamMemberBoxComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatCheckboxModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
