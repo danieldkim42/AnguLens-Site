@@ -18,19 +18,19 @@ export class DemoItemComponent {
       title: 'Folder-File View',
       description: "Displays file structure of selected directory",
       gifContent: 'gifLink' ,
-      instructionsList: []
+      instructionsList: ["Click on folders to open or close them for a cleaner view", "Double click files to navigate current VSCode window to clicked file"]
     },
     {
       title: 'Component View',
       description: "Displays component hierarchy, including routers, with overlayed connections representing different connections",
       gifContent: 'gifLink' ,
-      instructionsList: []
+      instructionsList: ["Filter component connections using dropdown menu", "Click on components to get additional information in modal -Inputs -Outputs -Services"]
     },
     {
       title: 'Services View',
       description: "Displays every service as a new network, with any components that utilize that service",
       gifContent: 'gifLink' ,
-      instructionsList: []
+      instructionsList: ["Displays every service as a new network, with any components that utilize that service"]
     }
     
 
