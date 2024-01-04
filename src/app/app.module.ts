@@ -13,6 +13,7 @@ import { TutorialContainerComponent } from './tutorial-container/tutorial-contai
 import { TeamContainerComponent } from './team-container/team-container.component';
 import { DemoItemComponent } from './demo-container/demo-item/demo-item.component';
 import { TeamMemberBoxComponent } from './team-container/team-member-box/team-member-box.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TeamMemberBoxComponent } from './team-container/team-member-box/team-me
     TutorialContainerComponent,
     TeamContainerComponent,
     DemoItemComponent,
-    TeamMemberBoxComponent
+    TeamMemberBoxComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
