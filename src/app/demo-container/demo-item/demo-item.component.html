@@ -1,23 +1,10 @@
-<br>
-<p>we may need a bit of dynamics here...</p>
-<p>I.E. each demo item gets dynamically fed it's content</p>
-<p>or we could just hard code in all the demo titles / gifs / text.....</p>
-<br>
+<div *ngFor = "let demo of demoItems">
+    <h2 class="demoTitle">{{ demo.title }}</h2>
 
-<div style="border-color: purple;">
-    <p>this is a flexbox...</p>
-    <h2 class="demoTitle">what are we demo'ing in this one</h2>
-    
-    <div>we could use a div to write more, like I am here</div>
-    
+    <div>{{ demo.gifContent}}</div>
+
     <ul>
-        <li>or do we</li>
-        <li>want some</li>
-        <li>list action?</li>
+        <li *ngFor = "let item of demo.instructionsList">{{ item }}</li>
     </ul>
-</div>
 
-<br>
-<p>we may need a bit of dynamics here...</p>
-<p>I.E. each demo item gets dynamically fed it's content</p>
-<p>or we could just hard code in all the demo titles / gifs / text.....</p>
+</div>
