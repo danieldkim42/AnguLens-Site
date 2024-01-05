@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.leftside {
+  display: flex;
+  justify-content: space-between;
+}
+.brand {
+  display: flex;
+}
+.quicklinks{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  .leftside img,
+  .rightside img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+}
