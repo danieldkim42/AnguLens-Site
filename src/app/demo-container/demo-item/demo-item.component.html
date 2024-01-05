@@ -1,11 +1,23 @@
-<div *ngFor = "let demo of demoItems">
-    <h2 class="demoTitle">{{ demo.title }}</h2>
-    <h3 class ="demoDescription">{{ demo.description }}</h3>
 
-    <div>{{ demo.gifContent}}</div>
 
-    <ul>
-        <li *ngFor = "let item of demo.instructionsList">{{ item }}</li>
-    </ul>
 
-</div>
+    <div *ngFor = "let demo of demoItems">
+        <div class="demoItemContainer">
+
+            <h2 class="demoTitle">{{ demo.title }}</h2>
+            <h3 class ="demoDescription">{{ demo.description }}</h3>
+            
+            <div *ngFor = "let gifUrl of demo.gifUrls">
+                <img class="demoGif" [src]="gifUrl" alt="Demo Gif"/>
+                
+            </div>
+
+            <div class="instructionsContainer">
+
+                <ul>
+                    <li *ngFor = "let item of demo.instructionsList">{{ item }}</li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
