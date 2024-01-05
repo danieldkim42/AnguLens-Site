@@ -11,10 +11,13 @@
                 <img class="demoGif" [src]="gifUrl" alt="Demo Gif"/>
                 
             </div>
-            
-            <ul>
-                <li *ngFor = "let item of demo.instructionsList">{{ item }}</li>
-            </ul>
+
+            <div class="instructionsContainer">
+
+                <ul>
+                    <li *ngFor = "let item of demo.instructionsList">{{ item }}</li>
+                </ul>
+            </div>
         </div>
         
     </div>
