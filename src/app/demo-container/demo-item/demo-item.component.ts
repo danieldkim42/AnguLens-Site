@@ -30,7 +30,7 @@ export class DemoItemComponent {
       title: 'Services View',
       description: "Displays every service as a new network, with any components that utilize that service",
       gifUrls: ['https://github.com/oslabs-beta/AnguLens/raw/main/assets/services.gif'] ,
-      instructionsList: ["Displays every service as a new network, with any components that utilize that service"]
+      instructionsList: []
     }
     
 
