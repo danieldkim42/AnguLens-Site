@@ -3,17 +3,19 @@
   width: 100vw;
   position: fixed;
   z-index: 1000;
-  padding-top: 10px;
-  padding-bottom: 15px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
 }
 .leftside {
   display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
-  margin-top: 8px;
+  justify-content: center;
+  position: absolute;
+ 
+ 
 }
 .brand {
   display: flex;
@@ -21,7 +23,7 @@
 }
 .siteTitle {
   color: black;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
 
 }
@@ -37,12 +39,28 @@ a {
   .rightside img {
     width: 30px;
     height: 30px;
-    margin-right: 10px;
     
   }
 }
-.rightside {
-  margin-right: 24px;
-  margin-top: 8px;
+.navigate{
+  display: flex;
+  justify-content: center;
+  margin-right: 16px;
+  
+  
 }
 
+.navItem{
+  margin-right: 12px;
+  margin-left: 12px;
+
+}
+
+.rightside {
+  margin-right: 16px;
+  display: flex;
+}
+
+.Logo {
+  margin-right: 12px;
+}
