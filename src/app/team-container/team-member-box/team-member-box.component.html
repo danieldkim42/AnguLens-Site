@@ -1,6 +1,12 @@
-<h4>WHATS UR NAAAAAAAME</h4>
-<div style="border-color: yellowgreen;">
-    <p>put an image in this div</p>
+<div class="memberBox">
+    <h4>{{member.name}}</h4>
+    <img class="member-picture" src={{member.pictureURL}}/>
+    <div class="logo-links">
+        <a href={{member.linkedinURL}}>
+            <img src="../../../assets/LinkedinLogo.png"/>
+        </a>
+        <a href={{member.githubURL}}>
+            <img src="../../../assets/githubLogo.png"/></a>
+    </div>
 </div>
-<a>link (just display an icon) to our github</a>
-<a>link (just display an icon) to our linkedin</a>
+

@@ -1,0 +1,32 @@
+.memberBox {
+  border: 1px solid #ccc; /* Add a border to simulate a card */
+  padding: 10px; /* Add some padding inside the card */
+  margin: 10px; /* Add margin around the card for spacing */
+
+  h4 {
+    margin-bottom: 10px; /* Add some margin below the heading */
+  }
+
+  img.member-picture {
+    max-width: 100%; /* Make sure the image doesn't exceed the container width */
+    height: auto; /* Maintain the image aspect ratio */
+    width: 150px; /* Set a fixed width of 100px */
+    height: 150px; /* Set a fixed height of 100px */
+    margin-bottom: 10px; /* Add some margin below the image */
+  }
+
+  .logo-links {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+
+    img {
+      height: 30px;
+      width: 30px;
+      margin-right: 10px; /* Add some margin between the images */
+    }
+
+    a {
+      margin-left: 10px; /* Add some margin between the images and the link */
+    }
+  }
+}
