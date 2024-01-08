@@ -1,7 +1,10 @@
 .navbar {
   background-color: hsl(345, 100%, 37%);
+  width: 100vw;
+  position: fixed;
+  z-index: 1000;
   padding-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -9,9 +12,21 @@
 .leftside {
   display: flex;
   justify-content: space-between;
+  margin-left: 30px;
+  margin-top: 8px;
 }
 .brand {
   display: flex;
+  
+}
+.siteTitle {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+a {
+  text-decoration: none;
 }
 .quicklinks{
   display: flex;
@@ -23,5 +38,11 @@
     width: 30px;
     height: 30px;
     margin-right: 10px;
+    
   }
 }
+.rightside {
+  margin-right: 24px;
+  margin-top: 8px;
+}
+
