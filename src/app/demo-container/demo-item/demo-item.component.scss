@@ -3,7 +3,7 @@
 
 
 .demoGif{
-  width: 800px;
+  width: 50vw;
   border: 1px solid rgb(148, 1, 1);
   border-radius: 10px;
 }
@@ -12,10 +12,44 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(65, 65, 65);
   width: 60vw;
   border-radius: 15px;
   margin-bottom: 20px;
-  padding-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.instructionsContainer {
+  display: flex;
+  width: 50vw;
+  justify-content: flex-start;
+  padding-top: 20px;
+
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid rgb(141, 141, 141);
+  width: 60vw;
+  margin-bottom: 30px;
+}
+
+.demoTitle {
+  font-size: 35px;
+
+}
+
+.instructionsList {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.demoDescription {
+  margin-bottom: 30px;
+  font-style: italic;
 }

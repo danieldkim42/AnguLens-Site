@@ -1,9 +1,4 @@
 <h2 class="lesserTitle">Meet the team</h2>
-<p>should each box have their own id corresponding to our names?</p>
-<p>and.... are we gonna dynamically assign data to these, or should we hard code </p>
-<p>in the structure of what's currently a component, one time for each of us?</p>
-<app-team-member-box class="team"></app-team-member-box>
-<app-team-member-box class="team"></app-team-member-box>
-<app-team-member-box class="team"></app-team-member-box>
-<app-team-member-box class="team"></app-team-member-box>
-<app-team-member-box class="team"></app-team-member-box>
+<div class="team-container">
+  <app-team-member-box class="team" *ngFor="let member of teamInfo" [member]="member"></app-team-member-box>
+</div>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-team-member-box',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./team-member-box.component.scss']
 })
 export class TeamMemberBoxComponent {
-
+  @Input() member: any | undefined;
 }
