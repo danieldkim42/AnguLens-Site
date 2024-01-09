@@ -1,3 +1,21 @@
+.meet-the-team {
+  background-color: rgb(65, 65, 65);
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .team-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.lesserTitle {
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
