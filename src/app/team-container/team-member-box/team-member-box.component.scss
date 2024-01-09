@@ -2,6 +2,11 @@
   border: 1px solid #ccc; /* Add a border to simulate a card */
   padding: 10px; /* Add some padding inside the card */
   margin: 10px; /* Add margin around the card for spacing */
+  background-color: rgb(148, 1, 1);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   h4 {
     margin-bottom: 10px; /* Add some margin below the heading */
@@ -13,6 +18,8 @@
     width: 150px; /* Set a fixed width of 100px */
     height: 150px; /* Set a fixed height of 100px */
     margin-bottom: 10px; /* Add some margin below the image */
+    border-radius: 15px;
+    border: 1px solid #ccc;
   }
 
   .logo-links {
