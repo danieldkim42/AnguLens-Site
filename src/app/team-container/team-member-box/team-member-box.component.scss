@@ -1,15 +1,18 @@
 .memberBox {
-  border: 1px solid #ccc; /* Add a border to simulate a card */
-  padding: 10px; /* Add some padding inside the card */
-  margin: 10px; /* Add margin around the card for spacing */
-  background-color: rgb(148, 1, 1);
+  
+  padding: 24px; /* Add some padding inside the card */
+  margin: 15px; /* Add margin around the card for spacing */
+  background-color: hsl(345, 100%, 32%);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 
   h4 {
     margin-bottom: 10px; /* Add some margin below the heading */
+    color: white;
   }
 
   img.member-picture {
@@ -19,17 +22,23 @@
     height: 150px; /* Set a fixed height of 100px */
     margin-bottom: 10px; /* Add some margin below the image */
     border-radius: 15px;
-    border: 1px solid #ccc;
+    border: 2px solid white;
+    
+    
   }
 
   .logo-links {
     display: flex;
     align-items: center; /* Align items vertically in the center */
+    padding-top: 10px;
+    
 
     img {
       height: 30px;
       width: 30px;
       margin-right: 10px; /* Add some margin between the images */
+      
+      
     }
 
     a {
