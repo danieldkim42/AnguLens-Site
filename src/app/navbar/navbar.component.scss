@@ -88,3 +88,12 @@ a {
 .Logo {
   margin-right: 12px;
 }
+
+@media only screen and (max-width: 600px) {
+  .navItem{
+    display: none;
+  }
+  .leftside{
+    margin-left: 16px;
+  }
+}

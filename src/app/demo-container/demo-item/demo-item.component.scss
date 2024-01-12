@@ -37,6 +37,7 @@
   border-bottom: 2px solid rgb(141, 141, 141);
   width: 60vw;
   margin-bottom: 30px;
+  
 }
 
 .demoTitle {
@@ -52,4 +53,12 @@
 .demoDescription {
   margin-bottom: 30px;
   font-style: italic;
+  width: fit-content;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  
 }
